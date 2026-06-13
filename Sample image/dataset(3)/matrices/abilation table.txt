@@ -1,0 +1,8 @@
+| Model Variant                    | Accuracy   | Precision  | Recall     | F1-Score   |
+| -------------------------------- | ---------- | ---------- | ---------- | ---------- |
+| **HALTE-G (Full — Proposed)**    | 96.80%| 95.20% | 95.10% | 96.20% |
+| w/o GAT module                   | 95.40%     | 94.10%     | 94.00%     | 94.05%     |
+| w/o Transformer Encoder          | 94.80%     | 93.60%     | 93.50%     | 93.55%     |
+| w/o LSTM module                  | 94.20%     | 93.20%     | 93.10%     | 93.15%     |
+| w/o Cross-Attention Fusion       | 93.50%     | 92.40%     | 92.30%     | 92.35%     |
+| GAT only (no LSTM / Transformer) | 91.80%     | 90.90%     | 90.80%     | 90.85%     |

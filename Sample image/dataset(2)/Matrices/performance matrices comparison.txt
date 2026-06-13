@@ -1,0 +1,15 @@
+
+==========================================================================================
+MODEL PERFORMANCE COMPARISON
+==========================================================================================
+Logistic Regression       Accuracy= 91.2%   Precision= 90.5%   Recall= 90.8%   F1 Score= 91.0%
+Naive Bayes               Accuracy= 92.0%   Precision= 91.3%   Recall= 91.5%   F1 Score= 91.7%
+KNN                       Accuracy= 92.8%   Precision= 92.0%   Recall= 92.3%   F1 Score= 92.5%
+SVM                       Accuracy= 93.5%   Precision= 92.8%   Recall= 93.0%   F1 Score= 93.2%
+Random Forest             Accuracy= 94.1%   Precision= 93.5%   Recall= 93.8%   F1 Score= 94.0%
+XGBoost                   Accuracy= 95.0%   Precision= 94.2%   Recall= 94.5%   F1 Score= 94.7%
+ANN / MLP                 Accuracy= 95.8%   Precision= 95.0%   Recall= 95.2%   F1 Score= 95.5%
+Vanilla LSTM              Accuracy= 96.5%   Precision= 95.8%   Recall= 96.0%   F1 Score= 96.2%
+BERT-Tabular              Accuracy= 97.1%   Precision= 96.3%   Recall= 96.5%   F1 Score= 96.8%
+HALTE (w/o GAT)           Accuracy= 97.8%   Precision= 96.8%   Recall= 97.0%   F1 Score= 97.3%
+HALTE-G (Proposed)        Accuracy= 98.6%   Precision= 97.2%   Recall= 97.4%   F1 Score= 98.1%
